@@ -1,12 +1,10 @@
 ---
-pagetitle: THOTH | Home
+pagetitle: THOTH - Home
 ---
 
 ```{r setup, echo = FALSE, message=FALSE, warning = FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(htmltools)
-
-# original headers color: #337AB7
 ```
 
 ```{r}
@@ -14,12 +12,13 @@ br()
 div(
   br(),
   div(
-    p(class = "centered-big", "THOTH"),
-    p(class = "centered-small", "Digitalisation of regulatory and intellectual property activities"),
-    p(class = "centered-small", "for Startups and Small Business"),
+  p("Text processing changes...", class = "left-small"),
+    # p(class = "centered-small", "pour Startups, Petites et Moyennes entreprises"),
   ),
-  img(src = "img/thoth_frontpage.png")
+  img(src = "img/thoth_fp4.jpg"),
+  br(), br(),
+  p(class = "right-small", "Digitalisation of regulatory and intellectual property activities"),
+  p(class = "right-small", "for Startups and Small Business"),
+  p(class = "right-big", "THOTH")
 )
 ```
-
-
