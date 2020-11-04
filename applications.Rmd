@@ -25,7 +25,7 @@ div(
 NLP Risk Management aims transforming risk management in the manufacturing industry. 
 A demo version can be tested at the demo site:
 
-[application demo](https://emergingfactory.shinyapps.io/sharprisk/)  
+[application demo](https://thoth.shinyapps.io/sharprisk/)  
 
 It combines well established risk identification and mitigation approaches with natural language processing capabilities. Risk assessment and categorisation are supported by syntactic and semantic analysis of risk descriptions. 
 
